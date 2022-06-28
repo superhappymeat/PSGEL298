@@ -73,8 +73,9 @@ In this hands-on we use the GitHub [SAS Viya 4 resources](https://github.com/sas
 
     ```bash
     # set AZURE region
-    AZUREREGION=${AZUREREGION:-eastus}
-
+    #AZUREREGION=${AZUREREGION:-eastus}
+    AZUREREGION=${AZUREREGION:-koreacentral}
+    
     echo ${AZUREREGION} > ~/deploy-using-docker/workspace/.azureregion.txt
     ```
 
